@@ -1,0 +1,112 @@
+/* 기본 스타일 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0.85rem;
+}
+
+body {
+    font-family: 'Hahmlet', serif;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #fff;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    hyphens: none;
+    word-break: keep-all;
+}
+
+/* 헤더 스타일 */
+.header {
+    text-align: center;
+    font-size: 0.85rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.header a {
+    text-decoration: none;
+    color: #333;
+}
+
+.header a:hover {
+    color: #666;
+}
+
+/* 리스트 스타일 */
+.list {
+    list-style: none;
+}
+
+.list-item {
+    margin-bottom: 1rem;
+}
+
+.list-item li {
+    margin-bottom: 0.5rem;
+    border: 1.5px solid #000000;
+    padding: 0.3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #333;
+    flex: 1;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 20ch;
+    margin: 0 auto;
+}
+
+.list-item a:hover {
+    color: cyan;
+}
+
+.list-item-date {
+    color: #999;
+    margin-left: 1rem;
+}
+
+/* 노트 페이지 스타일 */
+.note {
+    margin: 2rem 0;
+}
+
+.note-content {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    line-height: 1.8;
+    font-size: 0.8rem;
+    text-align: left;
+    hyphens: none;
+    border: 1.5px solid #000000;
+    padding: 0.4rem;
+}
+
+.note-content p {
+    margin-bottom: 1rem;
+}
+
+/* 푸터 스타일 */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 0.3rem 0;
+    margin-bottom: 0.3rem;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
