@@ -121,3 +121,22 @@ body {
     font-size: 0.7rem;
     line-height: 1.6;
 }
+
+.coment2 a{
+    color: #666;
+}
+
+.rheeghang {
+    position: relative;
+    background-color: rgb(234, 234, 234);
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    line-height: 1.7;
+    font-size: 0.85rem;
+    text-align: left;
+    hyphens: none;
+    border: 1.5px solid #000000;
+    padding: 0.4rem;
+}
+
